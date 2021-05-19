@@ -12,10 +12,10 @@ soup = BeautifulSoup(html, "lxml")
 for tag in soup.find_all("td", {"class":"total"}):
     print (tag.text)
 
-for tag in soup.find_all("td", {"class":"home"}):
-    print (tag.text)
+#for tag in soup.find_all("td", {"class":"home"}):
+    #print (tag.text)
 
 for tag in soup.find_all("td", {"class":"away"}):
     print (tag.text)
 
-# Find how to index home and away with scores.
+# Find how to index home and away with scores
